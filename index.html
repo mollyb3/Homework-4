@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Basic PWA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <main>
+        <h1>Progressive Web Applications</h1>
+
+        <p>
+            A Progressive Web Application, also called a PWA, is a web application that can work more like a regular app on a phone or computer. PWAs can be installed from the browser, load quickly, and give users a better experience than a basic website.
+        </p>
+
+        <p>
+            Some important characteristics of PWAs are responsiveness, offline access, service workers, and a web app manifest. A service worker helps the page keep working even without a network connection by caching important files, while the manifest file gives the browser information about the app, such as its name, icons, and display settings.
+        </p>
+
+        <section>
+            <label for="backgroundChoice">Choose a background:</label>
+            <select id="backgroundChoice">
+                <option value="">Plain white</option>
+                <option value="lightblue">Light blue</option>
+                <option value="lightgold">Light gold</option>
+            </select>
+        </section>
+
+        <section>
+            <label for="userName">Enter your name:</label>
+            <input type="text" id="userName" name="userName">
+            <p>Hello, <span id="savedName">guest</span>! Your name is being saved using Local Storage.</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
