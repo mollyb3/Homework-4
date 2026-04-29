@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #222;
+}
+
+main {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 12px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+section {
+    margin-top: 25px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+select,
+input,
+button {
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 350px;
+}
+
+.lightblue {
+    background-image: url("lightblue.jpg");
+}
+
+.lightgold {
+    background-image: url("lightgold.jpg");
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        margin: 15px;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    select,
+    input {
+        max-width: 100%;
+    }
+}
